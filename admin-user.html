@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title></title>
+    <link rel='stylesheet' href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/program.css">
+    <link rel="stylesheet" href="css/upcoming-events.css"> -->
+    <link rel="stylesheet" href="css/admin-user.css">
+    <!--owl CDN-->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css'>
+    <link rel='stylesheet'
+        href='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css'>
+
+</head>
+
+<body>
+    <section class="header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="https://web.pinklemonadedigital.com/mbrdi/">
+                    <img src="images/logo.png" alt="Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="main-events.html">Volunteering Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">My Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="guidelines-faqs.html">FAQ and Guidelines</a>
+            </li>
+             
+        </ul>
+    </div>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Admin User Section 1 : Starts -->
+    <section class="adminuser-sec1">
+        <div class="container">
+            <h1>Steering MBRDI volunteering</h1>
+            <p>Centralize event setups, edits, and communication with participants through our admin dashboard</p>
+            <div class="pavethepathwrapper">
+                <h2>Pave the path for volunteering opportunities</h2>
+                <p>Create fresh events to inspire and mobilize. Tailor every detail to foster meaningful engagements.
+                </p>
+                <form class="pavethepathform" action="">
+                    <div class="form-row">
+                        <div class="col namefieldwrap">
+                            <input type="text" class="form-control" id="namefield" placeholder="Name *" name="namefield" aria-describedby="nameHelp"  required="">
+                            <small id="nameHelp" class="form-text">Max 25 words</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col focusareawrap">
+                            <textarea class="form-control" rows="5" placeholder="Focus area (activity) *" id="focusrea"
+                                name="focusrea" aria-describedby="focusareaHelp" required></textarea>
+                            <small id="focusareaHelp" class="form-text">Max 140 words</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Hours commitment *" id="hrscommitment" name="hrscommitment" required>
+                        </div>
+                        <div class="col">
+                            <!-- <input type="text" class="form-control" placeholder="Available slots *" id="availableslots"  name="availableslots" required> -->
+                            <select class="form-control" id="availableslots" name="availableslots" required>
+                                <option value="">Available slots *</option>
+                                <option value="Slot 1">Slot 1</option>
+                                <option value="Slot 2">Slot 2</option>
+                                <option value="Slot 3">Slot 3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col text-center">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- Admin User Section 1 : Ends -->
+
+    <!-- Admin User Section 2 : Starts -->
+    <section class="forgeconnectionsec">
+        <div class="container">
+            <h2>Forge connections with champions of change</h2>
+            <p>Reach out to participants for updates, announcements, or appreciation. Strengthen the bond with
+                personalized messages.</p>
+            <form action="" class="forgeconnectionform">
+                <div class="form-row">
+                    <div class="col">
+                        <input type="email" class="form-control" id="emailID" placeholder="Email ID *" name="emailID"
+                            required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        <textarea id="editor"></textarea>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col text-right btnswrap">
+                        <button type="submit" class="btn draftsavebtn">Save as draft</button>
+                        <button type="submit" class="btn submitbtn">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- Admin User Section 2 : Ends -->
+
+    <!-- Admin User Drafts Sent Mail Section : Starts -->
+    <section class="mailslistsec">
+        <div class="container">
+            <div class="mailslisttabs">
+                <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#drafts">Drafts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#sentmail">Sent Mail</a>
+                    </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div id="drafts" class="tab-pane active">
+                        <div class="mailslistwrap">
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&lang;</span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&rang;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div id="sentmail" class="tab-pane fade">
+                        <div class="mailslistwrap">
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <div class="maillist">
+                                <h4>In publishing and graphic design</h4>
+                                <p>Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a
+                                    document or a typeface without relying on meaningful content. Lorem ipsum may be
+                                    used as a placeholder before final copy is available.</p>
+                                <span>Sent on: 12 May, 2023</span>
+                            </div>
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination">
+                                    <li class="page-item disabled">
+                                        <a class="page-link" href="#" aria-label="Previous">
+                                            <span aria-hidden="true">&lang;</span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                    </li>
+                                    <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                    <li class="page-item"><a class="page-link" href="#">5</a></li>
+                                    <li class="page-item">
+                                        <a class="page-link" href="#" aria-label="Next">
+                                            <span aria-hidden="true">&rang;</span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Admin User Drafts Sent Mail Section : Ends -->
+
+    <!-- Exploring section : Starts -->
+    <section class="exploresection">
+        <div class="container">
+            <h2>Explore ongoing volunteering endeavors</h2>
+            <p>Navigate through ongoing events, and fine-tune details to ensure each event resonates and remains
+                impactful.</p>
+            <div class="exploresecslider owl-carousel owl-theme">
+                <div class="exploreslideitem">
+                    <div class="slideitemwrap">
+                        <div class="slideimage">
+                            <a href="">
+                                <img class="img-fluid" src="images/social-mobility.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/social-mobility.png" alt="" /> -->
+                            </a>
+                        </div>
+                        <div class="slideinfo">
+                            <span class="date">26th June, 2024</span>
+                            <a href="">
+                                <h4>MobileKids Road Safety Awareness Program</h4>
+                            </a>
+                            <span class="location">
+                                <img class="img-fluid" src="images/location.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/location.png" alt="" /> -->
+                                Canada
+                            </span>
+                            <div class="vieweditbts">
+                                <a class="viewbtn" href="">View</a>
+                                <a class="editbtn" href="">Edit</a>
+                            </div>
+                        </div>
+                        <div class="downloaddiv">
+                            <a href="">Download Feedback</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="exploreslideitem">
+                    <div class="slideitemwrap">
+                        <div class="slideimage">
+                            <a href="">
+                                <img class="img-fluid" src="images/Road-safety.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/Road-safety.png" alt="" /> -->
+                            </a>
+                        </div>
+                        <div class="slideinfo">
+                            <span class="date">26th June, 2024</span>
+                            <a href="">
+                                <h4>MobileKids Road Safety Awareness Program</h4>
+                            </a>
+                            <span class="location">
+                                <img class="img-fluid" src="images/location.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/location.png" alt="" /> -->
+                                Canada
+                            </span>
+                            <div class="vieweditbts">
+                                <a class="viewbtn" href="">View</a>
+                                <a class="editbtn" href="">Edit</a>
+                            </div>
+                        </div>
+                        <div class="downloaddiv">
+                            <a href="">Download Feedback</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="exploreslideitem">
+                    <div class="slideitemwrap">
+                        <div class="slideimage">
+                            <a href="">
+                                <img class="img-fluid" src="images/awarness.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/awarness.png" alt="" /> -->
+                            </a>
+                        </div>
+                        <div class="slideinfo">
+                            <span class="date">26th June, 2024</span>
+                            <a href="">
+                                <h4>MobileKids Road Safety Awareness Program</h4>
+                            </a>
+                            <span class="location">
+                                <img class="img-fluid" src="images/location.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/location.png" alt="" /> -->
+                                Canada
+                            </span>
+                            <div class="vieweditbts">
+                                <a class="viewbtn" href="">View</a>
+                                <a class="editbtn" href="">Edit</a>
+                            </div>
+                        </div>
+                        <div class="downloaddiv">
+                            <a href="">Download Feedback</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="exploreslideitem">
+                    <div class="slideitemwrap">
+                        <div class="slideimage">
+                            <a href="">
+                                <img class="img-fluid" src="images/social-mobility.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/social-mobility.png" alt="" /> -->
+                            </a>
+                        </div>
+                        <div class="slideinfo">
+                            <span class="date">26th June, 2024</span>
+                            <a href="">
+                                <h4>MobileKids Road Safety Awareness Program</h4>
+                            </a>
+                            <span class="location">
+                                <img class="img-fluid" src="images/location.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/location.png" alt="" /> -->
+                                Canada
+                            </span>
+                            <div class="vieweditbts">
+                                <a class="viewbtn" href="">View</a>
+                                <a class="editbtn" href="">Edit</a>
+                            </div>
+                        </div>
+                        <div class="downloaddiv">
+                            <a href="">Download Feedback</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="exploreslideitem">
+                    <div class="slideitemwrap">
+                        <div class="slideimage">
+                            <a href="">
+                                <img class="img-fluid" src="images/Road-safety.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/Road-safety.png" alt="" /> -->
+                            </a>
+                        </div>
+                        <div class="slideinfo">
+                            <span class="date">26th June, 2024</span>
+                            <a href="">
+                                <h4>MobileKids Road Safety Awareness Program</h4>
+                            </a>
+                            <span class="location">
+                                <img class="img-fluid" src="images/location.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/location.png" alt="" /> -->
+                                Canada
+                            </span>
+                            <div class="vieweditbts">
+                                <a class="viewbtn" href="">View</a>
+                                <a class="editbtn" href="">Edit</a>
+                            </div>
+                        </div>
+                        <div class="downloaddiv">
+                            <a href="">Download Feedback</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="exploreslideitem">
+                    <div class="slideitemwrap">
+                        <div class="slideimage">
+                            <a href="">
+                                <img class="img-fluid" src="images/awarness.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/awarness.png" alt="" /> -->
+                            </a>
+                        </div>
+                        <div class="slideinfo">
+                            <span class="date">26th June, 2024</span>
+                            <a href="">
+                                <h4>MobileKids Road Safety Awareness Program</h4>
+                            </a>
+                            <span class="location">
+                                <img class="img-fluid" src="images/location.png" alt="" />
+                                <!-- <img class="img-fluid"
+                                    src="https://web.pinklemonadedigital.com/mbrdi/images/location.png" alt="" /> -->
+                                Canada
+                            </span>
+                            <div class="vieweditbts">
+                                <a class="viewbtn" href="">View</a>
+                                <a class="editbtn" href="">Edit</a>
+                            </div>
+                        </div>
+                        <div class="downloaddiv">
+                            <a href="">Download Feedback</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Exploring section : Ends -->
+
+    <!-- Cumulative dashboard section : Starts -->
+    <section class="cumulativedashboardsec">
+        <div class="container">
+            <h2>Your cumulative dashboard</h2>
+            <div class="selectlistwrap">
+                <select class="form-control" id="selectmonth" name="monthlist">
+                    <option value="">Month</option>
+                    <option value="January">January</option>
+                    <option value="February">February</option>
+                    <option value="March">March</option>
+                    <option value="April">April</option>
+                    <option value="May">May</option>
+                    <option value="June">June</option>
+                    <option value="July">July</option>
+                    <option value="August">August</option>
+                    <option value="September">September</option>
+                    <option value="October">October</option>
+                    <option value="November">November</option>
+                    <option value="December">December</option>
+                </select>
+                <select class="form-control" id="selectquarter" name="quarterlist">
+                    <option value="">Quarter</option>
+                    <option value="Quarter 1">Quarter 1</option>
+                    <option value="Quarter 2">Quarter 2</option>
+                    <option value="Quarter 3">Quarter 3</option>
+                    <option value="Quarter 4">Quarter 4</option>
+                </select>
+                <select class="form-control" id="selectlocation" name="locationlist">
+                    <option value="">Location</option>
+                    <option value="Location 1">Location 1</option>
+                    <option value="Location 2">Location 2</option>
+                    <option value="Location 3">Location 3</option>
+                    <option value="Location 4">Location 4</option>
+                </select>
+                <select class="form-control" id="selectfocusarea" name="focusarealist">
+                    <option value="">Focus Area</option>
+                    <option value="Focus Area 1">Focus Area 1</option>
+                    <option value="Focus Area 2">Focus Area 2</option>
+                    <option value="Focus Area 3">Focus Area 3</option>
+                </select>
+                <select class="form-control" id="selectdepartmet" name="departmentlist">
+                    <option value="">Department</option>
+                    <option value="Department 1">Department 1</option>
+                    <option value="Department 2">Department 2</option>
+                    <option value="Department 3">Department 3</option>
+                </select>
+            </div>
+
+            <div class="dashboardresultwrap">
+                <img class="img-fluid" src="images/dashboards-acme-corp-sales-dashboard.png" alt="" />
+            </div>
+        </div>
+    </section>
+    <!-- Cumulative dashboard section : Ends -->
+
+    <section class="footer">    
+    <div class="container main-wrap">
+        <div class="row footer-media">
+        <div class="col-md-4 pl-0">
+            <span class="benz-image"> <img src="images/benz.png" /> <h4>Mercedes-Benz</h4> </span>
+        </div>
+        <div class="col-md-8 text-right pr-0">
+             
+			
+			<div class="contact-media d-sm-none">
+			<h6>Contact Us</h6>
+			<ul>
+			<li><a href="#" target="_blank"><img src="images/mail.png" /></a></li>
+			<li><a href="#" target="_blank"><img src="images/hubspot.png" /></a></li>
+			</ul>    
+            </div>
+			
+            </div>
+        </div>
+        <div class="row copyright">
+        <div class="col-12 col-md-9 col-lg-10 pl-0 pr-0 copy-text">
+            <p>© 2024. Mercedes-Benz India Pvt. Ltd. All Rights Reserved</p>
+            </div>
+		<div class="col-12 col-md-3 col-lg-2 pl-0 pr-0 copy-contact d-none d-sm-block">
+		    <div class="contact-media">
+			<h6>Contact Us</h6>
+			<ul>
+			<li><a href="#" target="_blank"><img src="images/mail.png" /></a></li>
+			<li><a href="#" target="_blank"><img src="images/hubspot.png" /></a></li>
+			</ul>    
+            </div>
+		</div>
+        </div>
+        
+        </div>
+    </section>  
+
+
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src='js/bootstrap.min.js'></script>
+
+    <!--owl carousel js-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js'></script>
+    <script>
+        jQuery('.exploresecslider').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: true,
+            dots: false,
+            responsive: {
+                0: {
+                    items: 1,
+                    margin: 0
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        });
+    </script>
+
+    <!-- Script for tinymce editor -->
+    <script
+        src="https://cdn.tiny.cloud/1/qagffr3pkuv17a8on1afax661irst1hbr4e6tbv888sz91jc/tinymce/6/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            selector: '#editor',
+            menubar: false,
+            statusbar: false,
+            placeholder: "Message",
+            plugins: 'autoresize anchor autolink charmap code codesample directionality fullpage help hr image imagetools insertdatetime link lists media nonbreaking pagebreak preview print searchreplace table template textpattern toc visualblocks visualchars',
+            toolbar: 'h1 h2 bold italic strikethrough blockquote bullist numlist backcolor | link image media | removeformat help fullscreen ',
+            skin: 'bootstrap',
+            toolbar_drawer: 'floating',
+            min_height: 350,
+            autoresize_bottom_margin: 16,
+            setup: (editor) => {
+                editor.on('init', () => {
+                    editor.getContainer().style.transition = "border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out"
+                });
+                editor.on('focus', () => {
+                    editor.getContainer().style.boxShadow = "0 0 0 .2rem rgba(0, 123, 255, .25)",
+                        editor.getContainer().style.borderColor = "#80bdff"
+                });
+                editor.on('blur', () => {
+                    editor.getContainer().style.boxShadow = "",
+                        editor.getContainer().style.borderColor = ""
+                });
+                // var max = 20;
+                // editor.on('submit', function (event) {
+                //     var numChars = tinymce.activeEditor.plugins.wordcount.body.getCharacterCount();
+                //     if (numChars > max) {
+                //         alert("Maximum " + max + " characters allowed.");
+                //         event.preventDefault();
+                //         return false;
+                //     }
+                // });
+            }
+        });
+    </script>
+</body>
+
+</html>

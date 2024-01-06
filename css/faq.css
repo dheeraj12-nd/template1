@@ -1,0 +1,187 @@
+/*******FAQ********/
+
+
+.blue-bg {
+    background: #0078D6;
+}
+
+/* min-width 1024px */
+@media screen and (min-width:1024px)
+{
+    .ou-blueprint {margin-top: 4rem;margin-bottom: 4rem;}
+    .blueprint-sec1 p{width: 85%;text-align: left;}
+    .blueprint-sec2 .col-sm-2{flex: 0 0 20%;max-width: 20%;}
+    .ou-blueprint{padding-left: 4rem;padding-right: 4rem;}
+    .blueprint-sec2 .col-sm-2 {background: #f93;}
+    .blueprint-sec2 .col-sm-2:nth-of-type(even) {background: #69c;}
+    /*#loadMoreFq, #loadMorevfq {margin-top: 3rem !important;line-height: 1.2;}*/
+    .primary-btn{margin-top: 3rem !important;line-height: 1.2;}
+.add_faq p {font-size: 20px;}
+.faq-pg .col-8{padding-left: 3.7rem;}
+/*.seach_key{padding-top:2rem;}    */
+.seach_key input.search-input {font-size: 30px;}  
+/*.volunteer_faqs .card-body ol{    padding-left: 17px;}*/
+/*.faq-pg h2{padding-left: 4.7%;}*/
+.add_faq p {font-size: 20px;}
+    
+    
+}
+/* end of min-width 1024px*/
+
+
+.seach_key .search-container {max-width: 100%;}
+.faqs-head .col-xl-9.col-lg-10{display: flex;justify-content: space-between;}
+a.add_faq {
+    display: flex;
+    align-items: center;
+}
+.seach_key input.search-input {
+    color:#505050;
+    font-weight: 400;
+    line-height: 1.2;
+    font-family: 'DaimlerCAC-Regular';
+}
+.seach_key .submit-icon {border-radius: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;}
+.seach_key .submit-icon img {width:80%;}
+.seach_key .search-container{border-bottom: 1px solid #B0B0B0;align-items: center;}
+.seach_key .search-input {
+    flex: 1;
+    border:0;
+    padding: 12px 0px;
+    outline: none !important;
+}
+.add_faq p {
+    margin-bottom: 0;
+    padding-left: 10px;
+    color: #131822;
+    /*font-size: 20px;*/
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: 2px;
+    text-decoration-line: underline;
+}
+.add_faq a{display:flex;align-items: center;justify-content: center;}
+/*.card.active {background: #000;}*/
+.blueprint-sec2{margin-top:3rem;}
+.volunteer_faqs{background: #F1F0F0;}
+.volunteer_faqs .card, .faq-pg .card {border: 0px;}
+.volunteer_faqs .card.active button.btn.btn-link, .faq-pg .card.active button.btn.btn-link{color:#0078D6 !important;font-size: 20px;font-weight: 600;text-decoration: underline;}
+.volunteer_faqs .card button.btn.btn-link, .faq-pg .card button.btn.btn-link{color: #131822;font-weight: 600;}
+.volunteer_faqs .accordion button .fa-minus:before, .volunteer_faqs .accordion button .fa-plus:before{-webkit-text-stroke: 2px #f1f0f0;}
+.faq-pg .accordion button .fa-minus:before, .faq-pg .accordion button .fa-plus:before {-webkit-text-stroke: 2px #fff;}
+.volunteer_faqs .card.active button.btn.btn-link i, .faq-pg .card.active button.btn.btn-link i {border: 1px solid #0078D6;}
+.volunteer_faqs .accordion>.card>.card-header, .faq-pg .accordion>.card>.card-header {padding: 0 30px 0 65px;}
+.volunteer_faqs .accordion .card-body, .faq-pg .accordion .card-body {padding: 20px 50px 0px 79px;}
+.volunteer_faqs .card-body p, .volunteer_faqs .card-body li, .faqs-valntioner .card-body p {color: #000;}
+.volunteer_faqs button i, .faq-pg button i {border: 1px solid #131822;}
+.faq-pg .accordion .card-body p, .faq-pg .accordion .card-body p {color: #000;}
+
+
+/*loadmore*/
+/*.faqs-valntioner{
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+    padding: 1rem 0.5rem;
+}
+
+.box-container, .box-container1 {display: none;}
+
+.box-container:nth-child(1),
+.box-container:nth-child(2),
+.box-container:nth-child(3), .box-container1:nth-child(1),
+.box-container1:nth-child(2),
+.box-container1:nth-child(3) {
+  display: inline-block;
+  transition: 0.2s ease;
+}
+
+
+
+.load-more-btn, .load-more-btnfaq {display: block;}*/
+
+.faqs-valntioner, .valntioner-faqs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.box-container1, .box-container {
+  display: none;
+  width:100%;
+}
+#loadMoreFq, #loadMorevfq{
+  width: fit-content;
+  display: block;
+  margin: auto;
+}
+
+.noContent {
+  color: #000 !important;
+  background-color: transparent !important;
+  pointer-events: none;
+}
+.blueprint-sec1 {
+    background: #0078D6;
+    padding: 30px;
+}
+
+.guidelines-cta a {
+    background: #fff;
+    padding: 20px;
+}
+.guidelines-cta {
+    position: relative;
+    top: 40%;
+    font-size: 20px;
+    font-weight: 600;
+}
+.row.blueprint-sec1 p, .row.blueprint-sec1 h2 {color: #fff;}
+.guidelines-cta a:hover{text-decoration:none;background: #fff;transition: 0.3s ease-in;opacity:.7;}
+
+@media screen and (max-width:992px)
+{
+.guidelines-cta{font-size: 16px}
+    
+}
+
+/*max-width 767*/
+@media screen and (max-width:767px)
+{
+    .guidelines-cta a {
+    background: #fff;
+    padding: 12px 20px;
+    line-height: normal;
+}
+    .guidelines-cta {
+    margin: 20px;
+    top: 0;
+    line-height: normal;
+}
+    .blueprint-sec1 {
+    background: #0078D6;
+    padding: 20px 0;
+    text-align: center;
+}
+    .volunteer_faqs .accordion>.card>.card-header, .faq-pg .accordion>.card>.card-header {padding: 0 30px 0 45px !important;}
+.volunteer_faqs .accordion .card-body, .faq-pg .accordion .card-body {/*padding: 20px 50px 0px 56px !important;*/padding:20px 0px 0px 56px !important;}
+#loadMoreFq, #loadMorevfq {margin-top: 1.5rem !important;}
+.volunteer_faqs .accordion button i{top:14px;}
+.faqs-head .col-xl-9.col-lg-10 {display: block;text-align: center;}
+a.add_faq {justify-content: center;margin-top: 1rem;}
+.seach_key {padding-top: 10px !important;}
+    
+
+    
+}/*end of max-width 767*/
+
+.volunteer_faqs .card-body ol {padding-left: 17px;}
+.volunteer_faqs .accordion>.card, .faq-pg .accordion>.card {padding: 15px 0;}
+.noContent {margin-top: 0px !important;}

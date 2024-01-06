@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>FAQS</title>
+    <link rel='stylesheet' href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/faq.css">
+    
+</head>
+<body>
+
+<section class="header">    
+    <div class="container">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="#">
+        <img src="images/logo.png" alt="Logo" />
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="main-events.html">Volunteering Events</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="profile.html">My Profile</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="guidelines-faqs.html">FAQ and Guidelines</a>
+            </li>
+            <li class="nav-item">
+               <span class="navbar-image">
+        <img src="images/benz.png" />
+      </span>
+            </li>
+        </ul>
+    </div>
+</nav>
+        
+   
+    </div>
+</section>    
+ 
+
+    
+    
+
+
+
+<!--volunteering guidelines-->
+<section class="volunteer_faqs" id="volunteering">
+    <div class="container main-wrap">
+        <div class="row blueprint-sec1">    
+            <div class="col-md-8 col-12">
+                <h2 class="">Volunteering Guidelines</h2>
+                <p class="">To ensure a seamless and impactful volunteering experience, we've set forth a few guidelines. Let these be your compass as you embark on this transformative journey.</p>
+            </div>   
+            <div class="col-md-4 col-12">
+                <div class="guidelines-cta">
+                    <a href="#">Download Guidlines</a>
+                </div>
+            </div> 
+        </div>
+        
+ <!--        <div class="row pt-4 justify-content-center">  -->
+ <!--   <div class="col-xl-9 col-lg-10">-->
+ <!--  <div class="accordion valntioner-faqs" id="accordionExample">-->
+ <!--     <div class="card active box-container">-->
+ <!--    <div class="card-header" id="headingOne">-->
+ <!--      <h2 class="mb-0">-->
+ <!--        <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne"><i class="fa fa-plus"></i>Eligibility</button>-->
+ <!--      </h2>-->
+ <!--    </div>-->
+ <!--    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">-->
+ <!--      <div class="card-body">-->
+ <!--        <p>All internal Mercedes-Benz Research and Development India employees are eligible to participate.</p>-->
+ <!--      </div>-->
+ <!--    </div>-->
+ <!--  </div>-->
+ <!--  <div class="card box-container">-->
+ <!--    <div class="card-header" id="headingTwo">-->
+ <!--      <h2 class="mb-0">-->
+ <!--        <button type="button" class="btn btn-link " data-toggle="collapse" data-target="#collapseTwo"><i class="fa fa-plus"></i>Purpose and Objectives</button>-->
+ <!--      </h2>-->
+ <!--    </div>-->
+ <!--    <div id="collapseTwo" class="collapse " aria-labelledby="headingTwo" data-parent="#accordionExample">-->
+ <!--      <div class="card-body">-->
+ <!--       <ol><li>Understand the purpose and objectives of the CSR volunteering program. This will ensure fruitful engagements.</li>-->
+ <!--           <li>Align your efforts with the company's CSR mission and values.</li>-->
+ <!--           </ol>-->
+ <!--      </div>-->
+ <!--    </div>-->
+ <!--  </div>-->
+ <!--  <div class="card box-container">-->
+ <!--    <div class="card-header" id="headingThree">-->
+ <!--      <h2 class="mb-0">-->
+ <!--        <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"><i class="fa fa-plus"></i>Volunteering Opportunities</button>-->
+ <!--      </h2>-->
+ <!--    </div>-->
+ <!--    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">-->
+ <!--      <div class="card-body">-->
+ <!--        <p>All opportunities are aligned with the MBRDI CSR focus areas of sustainable mobility, environmental sustainability, and need-based (people with disabilities)projects. Choose events that resonate with your interests and skills.</p>-->
+ <!--      </div>-->
+ <!--    </div>-->
+ <!--  </div>  -->
+ <!--  <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingFour">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"><i class="fa fa-plus"></i>Time Commitment</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--          <ol><li>A typical event duration is 3 hours, inclusive of travel to and from the location.</li>-->
+ <!--           <li>Do coordinate your volunteer schedule with your work responsibilities.</li>-->
+ <!--           </ol>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingFive">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"><i class="fa fa-plus"></i>Safety and Security</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--          <ol>-->
+ <!--              <li>Prioritize your safety and security during volunteer activities.</li>-->
+ <!--           <li>Familiarize yourself with emergency procedures and relevant contacts.</li>-->
+ <!--           </ol>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingsix">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix"><i class="fa fa-plus"></i>Code of Conduct</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapsesix" class="collapse" aria-labelledby="headingsix" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--          <p>Embrace respectful and ethical behavior and do not engage in discrimination, harassment, or any inappropriate conduct.</p>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingseven">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseseven"><i class="fa fa-plus"></i>Legal and Ethical Considerations</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseseven" class="collapse" aria-labelledby="headingseven" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--          <p>Adhere to all relevant laws, regulations, and ethical guidelines.</p>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingEight">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight"><i class="fa fa-plus"></i>Document Submission</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--          <p>Sign and submit the media consent form to the coordinator.</p>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingNine">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine"><i class="fa fa-plus"></i>Resource Management</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--         <ol>-->
+ <!--             <li>Utilize the provided resources, such as volunteer materials and transportation, responsibly.</li>-->
+ <!--             <li>Report any resource-related concerns to the volunteer coordinator.</li>-->
+ <!--         </ol>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingTen">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen"><i class="fa fa-plus"></i>Attendance</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--         <p>Participate in tracking and measuring the impact of your volunteering efforts. You can do so by ensuring you mark your attendance with the coordinator.</p>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingEleven">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEleven"><i class="fa fa-plus"></i>Feedback Mechanism</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--         <p>Provide feedback on your volunteering experiences and suggest improvements to the program. You can write to us about this.</p>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingTwelve">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwelve"><i class="fa fa-plus"></i>Communication</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseTwelve" class="collapse" aria-labelledby="headingTwelve" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--         <ol>-->
+ <!--             <li>Stay informed about updates, success stories, and the impact of your efforts on the company and the community.</li>-->
+ <!--             <li>Share your experiences with your colleagues and inspire others to volunteer.</li>-->
+ <!--         </ol>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingThirteen">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThirteen"><i class="fa fa-plus"></i>Adaptability</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--         <p>As it is a social space, be adaptable to changing circumstances, community needs, and emerging challenges during your volunteer work.</p>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+ <!--    <div class="card box-container">-->
+ <!--      <div class="card-header" id="headingFourteen">-->
+ <!--        <h2 class="mb-0">-->
+ <!--          <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFourteen"><i class="fa fa-plus"></i>Recognition and Rewards</button>-->
+ <!--        </h2>-->
+ <!--      </div>-->
+ <!--      <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen" data-parent="#accordionExample">-->
+ <!--        <div class="card-body">-->
+ <!--         <p>Departments and individuals with the highest contributing efforts will be recognized and rewarded at the end of the financial year.</p>-->
+ <!--        </div>-->
+ <!--      </div>-->
+ <!--    </div>-->
+     
+     
+     
+     
+ <!--</div>-->
+ <!--      </div> -->
+ <!--  </div>-->
+    
+    <!--<a href="#" class="primary-btn" id="loadMorevfq">Load More</a>-->
+    
+    <!--</div>-->
+    
+</section>
+<!--end of volunteering guidelines-->
+ 
+<!--FAQs listing-->
+<section class="faq-pg">    
+  <div class="container main-wrap">
+        
+         <div class="row justify-content-center faqs-head">    
+         <div class="col-xl-9 col-lg-10 ">
+             <h2 class="">Frequently Asked Questions</h2>
+             <!--<a href="#" target="_blank" class="add_faq">-->
+             <!--        <img src="images/add-faq.png" alt="" />-->
+             <!--        <p>Add your question</p>-->
+             <!--   </a>-->
+            </div> 
+         </div>
+         
+         <div class="row justify-content-center seach_key">    
+         <div class="col-xl-9 col-lg-10 ">
+            <div class="search-container ml-auto">
+    <input type="text" class="search-input" placeholder="Search with any keyword">
+    <button type="submit" class="submit-icon"><img src="images/search.png" alt="" /></button>
+  </div>
+            </div> 
+         </div>
+         
+         
+          <div class="row pt-4 justify-content-center">  
+      <div class="col-xl-9 col-lg-10">
+     <div class="accordion faqs-valntioner" id="accordionExample1">
+        <div class="card active box-container1">
+       <div class="card-header" id="headingOne1">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#collapseOne1"><i class="fa fa-plus"></i>What kind of CSR activities does MBRDI support?</button>
+         </h2>
+       </div>
+       <div id="collapseOne1" class="collapse show" aria-labelledby="headingOne1" data-parent="#accordionExample1">
+         <div class="card-body">
+           <p>CSR at MBRDI is focused on three areas: sustainable mobility, environmental sustainability, and need-based projects.</p>
+         </div>
+       </div>
+     </div>
+     <div class="card box-container1">
+       <div class="card-header" id="headingTwo2">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link " data-toggle="collapse" data-target="#collapseTwo2"><i class="fa fa-plus"></i>What types of volunteer activities does MBRDI typically engage in?</button>
+         </h2>
+       </div>
+       <div id="collapseTwo2" class="collapse " aria-labelledby="headingTwo2" data-parent="#accordionExample1">
+         <div class="card-body">
+           <p>Within the focus areas, we typically engage in road safety activities at government schools, biodiversity conservation through plantation and awareness drives, and need-based mentoring programs for persons with disabilities, amongst others. Click <a href="main-events.html">here</a> to see the available volunteering opportunities and those that have been completed.</p>
+         </div>
+       </div>
+     </div>
+     <div class="card box-container1">
+       <div class="card-header" id="headingThree3">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree3"><i class="fa fa-plus"></i>How can I get updates on upcoming volunteering opportunities and events?</button>
+         </h2>
+       </div>
+       <div id="collapseThree3" class="collapse" aria-labelledby="headingThree3" data-parent="#accordionExample1">
+         <div class="card-body">
+           <p>You can go to the <a href="main-events.html">“Volunteering Events”</a> page and navigate through the list to find upcoming volunteering opportunities and events.</p>
+         </div>
+       </div>
+     </div>  
+     <div class="card box-container1">
+         <div class="card-header" id="headingFour1">
+           <h2 class="mb-0">
+             <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFour1"><i class="fa fa-plus"></i>Who do I reach out to regarding volunteering opportunities?</button>
+           </h2>
+         </div>
+         <div id="collapseFour1" class="collapse" aria-labelledby="headingFour1" data-parent="#accordionExample1">
+           <div class="card-body">
+             <p>All departments at MBRDI have designated CSR SPOCs. The SPOC aligns with the core CSR team at MBRDI to understand available opportunities and gather department-level registrations. Please refer to the <a href="/mbrdi/home.html#spocs">Department SPOCs</a> section on the homepage of this site or the <a href="https://social.cloud.corpintra.net/groups/csr-mbrdi" target="_blank">CSR Social Intranet</a> to find information about your department's CSR SPOC.</p>
+           </div>
+         </div>
+       </div>
+       
+       <div class="card box-container1">
+       <div class="card-header" id="headingFive1">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseFive1"><i class="fa fa-plus"></i>Are there specific guidelines or policies for employees who want to volunteer during company time?</button>
+         </h2>
+       </div>
+       <div id="collapseFive1" class="collapse" aria-labelledby="headingFive1" data-parent="#accordionExample1">
+         <div class="card-body">
+           <p>Yes, please refer to the detailed document <a href="guidelines-faqs.html#volunteering">here</a>.</p>
+         </div>
+       </div>
+     </div>
+     
+     <div class="card box-container1">
+       <div class="card-header" id="headingsix1">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsesix1"><i class="fa fa-plus"></i>Are there any recognition programs for employees who participate in volunteering?</button>
+         </h2>
+       </div>
+       <div id="collapsesix1" class="collapse" aria-labelledby="headingsix1" data-parent="#accordionExample1">
+         <div class="card-body">
+           <p>All volunteers will receive participation certificates for each CSR activity they volunteer for. Activities and consolidated certificates can be found in your <a href="profile.html">profile section</a>.</p>
+         </div>
+       </div>
+     </div>
+     
+     <div class="card box-container1">
+       <div class="card-header" id="headingseven1">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseseven1"><i class="fa fa-plus"></i>How can I report my volunteer hours?</button>
+         </h2>
+       </div>
+       <div id="collapseseven1" class="collapse" aria-labelledby="headingseven1" data-parent="#accordionExample1">
+         <div class="card-body">
+           <p>You can report your volunteer hours by scanning the QR code shared after an event and filling in the details. Consolidated hours can be found in the <a href="profile.html">“My Profile”</a> section.</p>
+         </div>
+       </div>
+     </div>
+     
+     <div class="card box-container1">
+       <div class="card-header" id="headingEight1">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseEight1"><i class="fa fa-plus"></i>Do I need approval from my supervisor or manager to participate in volunteering?</button>
+         </h2>
+       </div>
+       <div id="collapseEight1" class="collapse" aria-labelledby="headingEight1" data-parent="#accordionExample1">
+         <div class="card-body">
+           <p>Yes. Please ensure participation in all CSR activities is notified to your immediate manager and does not disrupt business requirements or commitments.</p>
+         </div>
+       </div>
+     </div>
+     
+     <div class="card box-container1">
+       <div class="card-header" id="headingNine1">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseNine1"><i class="fa fa-plus"></i>Can I organize department-specific volunteering activities?</button>
+         </h2>
+       </div>
+       <div id="collapseNine1" class="collapse" aria-labelledby="headingNine1" data-parent="#accordionExample1">
+         <div class="card-body">
+          <p>Yes. You can connect with your department's CSR SPOC and get in touch with us at <a href="mailto:csr-mbrdi@mercedes-benz.com">csr-mbrdi@mercedes-benz.com</a> with the requirements. We recommend informing us a month in advance to prepare for the event.</p>
+         </div>
+       </div>
+     </div>
+     
+     <div class="card box-container1">
+       <div class="card-header" id="headingTen1">
+         <h2 class="mb-0">
+           <button type="button" class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTen1"><i class="fa fa-plus"></i>How can I provide feedback or suggest new volunteer initiatives for MBRDI?</button>
+         </h2>
+       </div>
+       <div id="collapseTen1" class="collapse" aria-labelledby="headingTen1" data-parent="#accordionExample1">
+         <div class="card-body">
+          <p>You can provide feedback or suggest new volunteer initiatives by using the feedback link that is generated once you have participated in an event. You can also write to us at <a href="mailto:csr-mbrdi@mercedes-benz.com">csr-mbrdi@mercedes-benz.com</a>.</p>
+         </div>
+       </div>
+     </div>
+       
+       
+   </div>
+         </div> 
+     </div>
+     
+     <a href="#" class="primary-btn" id="loadMoreFq">Load More</a>
+     
+     </div>
+     
+ </section>    
+ <!--end FAQs listing-->
+
+    
+    <section class="footer">    
+    <div class="container main-wrap">
+        <div class="row footer-media">
+        <div class="col-md-4 pl-0">
+            <div class="contact-media">
+            <h6>Contact Us</h6>
+            <ul>
+                <li><a href="#" target="_blank"><img src="images/mail.png" /></a></li>
+                <li><a href="#" target="_blank"><img src="images/hubspot.png" /></a></li>
+                </ul>    
+            </div>
+            </div>
+        <div class="col-md-8 text-right pr-0">
+            <ul class="quick-links">
+            <li><a href="main-events.html">Volunteering Events</a></li>
+            <li><a href="profile.html">My Profile</a></li>
+            <li><a href="guidelines-faqs.html">FAQ and Guidelines</a></li>
+            </ul>
+            </div>
+        </div>
+        <div class="row copyright">
+        <div class="col-12 pl-0 pr-0">
+            <p>© 2023. Mercedes-Benz India Pvt. Ltd. All Rights Reserved</p>
+            </div>
+        </div>
+        
+        </div>
+    </section>
+
+<script src="js/jquery-3.7.1.min.js"></script>
+<script src='js/bootstrap.min.js'></script>    
+
+    
+    
+<!--accordion for FQAs-->
+<script>
+$(document).ready(function () {
+            $(".collapse.show").each(function () {
+                $(this)
+                    .prev(".card-header")
+                    .find(".fa")
+                    .addClass("fa-minus")
+                    .removeClass("fa-plus");
+            });
+
+            $(".collapse")
+                .on("show.bs.collapse", function () {
+                    $(this)
+                        .prev(".card-header")
+                        .find(".fa")
+                        .removeClass("fa-plus")
+                        .addClass("fa-minus");
+                    $(this)
+                        .parent()
+                        .addClass('active');
+                })
+                .on("hide.bs.collapse", function () {
+                    $(this)
+                        .prev(".card-header")
+                        .find(".fa")
+                        .removeClass("fa-minus")
+                        .addClass("fa-plus");
+                    $(this)
+                        .parent()
+                        .removeClass('active');
+                });
+        });    
+</script> 
+<!--end accordion for FQAs-->
+
+<!--Load more for Volunteering guidelines-->
+<script>
+$(document).ready(function(){
+  $(".box-container1").slice(0, 4).show();
+  $("#loadMoreFq").on("click", function(e){
+    e.preventDefault();
+    $(".box-container1:hidden").slice(0, 6).slideDown();
+    if($(".box-container1:hidden").length == 0) {
+      $("#loadMoreFq").text("").addClass("noContent");
+    }
+  });
+  
+})
+
+$(document).ready(function(){
+  $(".box-container").slice(0, 4).show();
+  $("#loadMorevfq").on("click", function(e){
+    e.preventDefault();
+    $(".box-container:hidden").slice(0, 6).slideDown();
+    if($(".box-container:hidden").length == 0) {
+      $("#loadMorevfq").text("").addClass("noContent");
+    }
+  });
+  
+})
+</script>
+ <!--end Load more for Volunteering guidelines--> 
+   
+
+</body>
+</html>

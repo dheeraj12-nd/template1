@@ -1,0 +1,300 @@
+.more-info {background: #fff;box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);margin-bottom: 40px;}
+.volunteer-head h1{font-family: 'DaimlerCAC-Regular';font-size: 46px;font-weight: 400;line-height: 46px;letter-spacing: 0em;text-align: left;color: #131822;}
+.add-btn {padding-top: 15px;}
+.add-btn img {padding-right: 10px;}
+.volunteer-info label {width: 100%;}
+.volunteer-info{padding-bottom:0px;position:relative;}
+.filter-btn a {background: #0078D6;text-align: center;display: block;margin-left: auto;width: 205px;height: 60px;color: #fff;font-family: 'DaimlerCS-Regular';font-size: 20px;font-weight: 600;line-height: 30px;letter-spacing: 0.1em;padding: 15px 20px;}
+.filter-btn img {padding-left: 10px;}
+.filter-btn a:hover {background: #008DFC;transition: 0.3s ease-in;text-decoration:none;}
+.dropdown1 select {-webkit-appearance: none;}
+.dropdown1::after {content: '<';font-size:18px;color: #505050 ;transform: rotate(270deg);right: 24%;top: 20px;position: absolute;pointer-events: none;font-weight:600;opacity:.5;}
+
+.dropdown {position: absolute;top:36%;transform: translateY(-50%);right:0;z-index: 9999;}
+.dropdown a {color: #fff;}
+.dropdown dd,
+.dropdown dt {margin: 0px;padding: 0px;}
+.dropdown ul {margin: -1px 0 0 0;}
+.dropdown dd {position: relative;}
+.dropdown a,
+.dropdown a:visited {color: #fff;text-decoration: none;outline: none;font-size: 12px;}
+.dropdown dt a {
+  display: block;
+  height: 60px;
+  line-height: 24px;
+  overflow: hidden;
+  border: 0;
+  width: 230px;
+}
+.dropdown dt a span,
+.multiSel span {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 3px 2px 0;
+  font-family: 'DaimlerCS-Demi';
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+  text-align: left;
+}
+.dropdown dd ul {
+  background-color: #0078d6;
+  border: 0;
+  color: #fff;
+  display: none;
+  left: 0px;
+  padding: 2px 15px 2px 5px;
+  position: absolute;
+  top: 2px;
+  width: 230px;
+  list-style: none;
+  height: Auto;
+  overflow: auto;
+}
+
+.dropdown span.value {display: none;}
+.dropdown dd ul li a {padding: 5px;display: block;}
+
+.dropdown dd ul li a:hover {background-color: #fff;}
+.dropdown button {
+  background-color: #6BBE92;
+  width: 302px;
+  border: 0;
+  padding: 10px 0;
+  margin: 5px 0;
+  text-align: center;
+  color: #fff;
+  font-weight: bold;
+}
+.dropdown input{margin:5px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vegetables {display: flex;flex-direction: column;align-items: center;justify-content: center;}
+.page {margin: 0 auto;padding: 0;}
+.page li {list-style: none;margin: 10px auto;padding: 12px;background: white;border-radius: 10px;text-align: center;}
+.pagination {text-align: center;margin-top: 20px;display: flex;align-items: center;justify-content: center;}
+.pages {display: flex;align-items: center;justify-content: space-between;max-width: 100%;width: 230px;}
+
+.page-number {
+    cursor: pointer;
+    background-color: white;
+    color: #848EA1;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s ease;
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.pagination .active {
+    font-size: 1.3em;
+    height: 40px;
+    width: 40px;
+    background-color: #008DFC;
+    color: #fff;
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.pagination button {
+    /*width: 120px;*/
+    padding: 8px 16px;
+    background-color: #ffffff00;
+    color: #131822;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pagination button:hover {
+    color: #0056b3;
+}
+
+.pagination button:disabled {
+    background-color: #ffffff00;
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+
+
+.pagination .arrow {
+    font-size: 1.2em;
+}
+
+.pagination .nav-text {
+    font-size: 0.7em;
+    letter-spacing: 0.3em;
+}
+
+/* .firodia-form .smt-btn input{background:transparent !important;} */
+
+.volunteer-info ::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#505050;
+
+}
+.volunteer-info :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#505050;
+}
+.volunteer-info ::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#505050;
+}
+.volunteer-info :-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#505050;
+}
+.dropdown1 select{    
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#505050;
+}
+.search-info {
+    position: relative;
+}
+
+.volunteer-info .form-control:focus {
+    box-shadow: none !important;
+    border-bottom:1px solid #000;
+}
+.volunteer-info .form-control{
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 46px;
+    letter-spacing: 0em;
+    text-align: left;
+    color:#505050 !important;
+}
+@media only screen and (min-width: 768px) {
+    .volunteer-info .col-md-4{margin:0;padding:0;}
+    .volunteer-info .form-control {border: none;border-bottom: 1px solid #000;border-radius: 0;margin-left: 15px;padding: 0;height: 60px;}
+    .dropdown1 select#sel1 {width: 91%;}
+    .slot-info-main.slot-info a {position: relative;top: 0px !important;left: 20px;}
+    .search-img {position: absolute;top: 6px;right: 6%;}
+    .dropdown1::before {
+    content: '';
+    position: absolute;
+    top: 30%;
+    width: 1px;
+    height: 29px;
+    background: #000;
+    left: 0;
+}
+.filter-btn a { margin-right: 16px;}
+.slot-info-main .book-slot::before {
+    content: '';
+    position: absolute;
+    top: 35%;
+    width: 1px;
+    height: 15px;
+    background: #008DFC;
+    left: -9%;
+    transform: rotate(0deg);
+}
+.more-info img {
+    object-fit:cover;
+
+}
+.vegetables .social-info {
+    top: 37%;
+}
+.events-card-thumb img {
+    width: 100%;
+    max-height: 240px;
+    min-height: 240px;
+    object-fit: cover;
+    object-position: bottom center;
+}
+}
+
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .volunteer-head h1 {font-size: 32px;}
+    .volunteer-info .form-control {font-size: 20px;}
+    .volunteer-info ::-webkit-input-placeholder { /* WebKit browsers */font-size: 20px !important;}
+    .search-img {position: absolute;top: 6px;right: 3%;}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+    .volunteer-head h1 {font-size: 36px;}
+    .volunteer-info .form-control {font-size: 22px;}
+    .volunteer-info ::-webkit-input-placeholder { /* WebKit browsers */font-size: 22px !important;}
+    .search-img {position: absolute;top: 6px;right: 3%;}
+}
+
+
+@media only screen and (max-width: 767px) {
+    .volunteer-head h1 {font-size: 30px;}
+    .volunteer-head {padding-bottom: 0px;}
+    .add-btn {padding-top: 5px;padding-bottom: 20px;}
+    .volunteer-info .form-control {font-size: 22px;}
+    .volunteer-info ::-webkit-input-placeholder { /* WebKit browsers */font-size: 22px !important;}
+    .volunteer-info .form-control {border: none;border-bottom: 1px solid #000;border-radius: 0;padding: 0;height: 60px;}
+    .volunteer-info .form-group {margin-bottom: 10px;}
+    .search-img {position: absolute;top: 6px;right: 3%;}
+    .filter-btn a {margin-left: 0;width: 140px;height: 50px; padding: 10px 20px;margin-top: 30px;}
+    .vegetables .more-info img {width: 100%;}
+}
+
+@media only screen and (min-width: 992px) {
+    .add-btn {position: relative;left: -10%;}
+}
+

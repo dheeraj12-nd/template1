@@ -1,0 +1,1032 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap');
+@font-face {
+  font-family: 'DaimlerCAC-Bold';
+  src: url(../fonts/DaimlerCAC-Bold.eot);
+  src: url(../fonts/DaimlerCAC-Bold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/DaimlerCAC-Bold.otf) format('otf'),
+       url(../fonts/DaimlerCAC-Bold.svg#DaimlerCAC-Bold) format('svg'),
+       url(../fonts/DaimlerCAC-Bold.ttf) format('truetype'),
+       url(../fonts/DaimlerCAC-Bold.woff) format('woff'),
+       url(../fonts/DaimlerCAC-Bold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DaimlerCAC-Regular';
+  src: url(../fonts/DaimlerCAC-Regular.eot);
+  src: url(../fonts/DaimlerCAC-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/DaimlerCAC-Regular.otf) format('otf'),
+       url(../fonts/DaimlerCAC-Regular.svg#DaimlerCAC-Regular) format('svg'),
+       url(../fonts/DaimlerCAC-Regular.ttf) format('truetype'),
+       url(../fonts/DaimlerCAC-Regular.woff) format('woff'),
+       url(../fonts/DaimlerCAC-Regular.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DaimlerCS-Demi';
+  src: url(../fonts/DaimlerCS-Demi.eot);
+  src: url(../fonts/DaimlerCS-Demi.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/DaimlerCS-Demi.otf) format('otf'),
+       url(../fonts/DaimlerCS-Demi.svg#DaimlerCS-Demi) format('svg'),
+       url(../fonts/DaimlerCS-Demi.ttf) format('truetype'),
+       url(../fonts/DaimlerCS-Demi.woff) format('woff'),
+       url(../fonts/DaimlerCS-Demi.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DaimlerCS-ExtraBold';
+  src: url(../fonts/DaimlerCS-ExtraBold.eot);
+  src: url(../fonts/DaimlerCS-ExtraBold.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/DaimlerCS-ExtraBold.otf) format('otf'),
+       url(../fonts/DaimlerCS-ExtraBold.svg#DaimlerCS-ExtraBold) format('svg'),
+       url(../fonts/DaimlerCS-ExtraBold.ttf) format('truetype'),
+       url(../fonts/DaimlerCS-ExtraBold.woff) format('woff'),
+       url(../fonts/DaimlerCS-ExtraBold.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DaimlerCS-Light';
+  src: url(../fonts/DaimlerCS-Light.eot);
+  src: url(../fonts/DaimlerCS-Light.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/DaimlerCS-Light.otf) format('otf'),
+       url(../fonts/DaimlerCS-Light.svg#DaimlerCS-Light) format('svg'),
+       url(../fonts/DaimlerCS-Light.ttf) format('truetype'),
+       url(../fonts/DaimlerCS-Light.woff) format('woff'),
+       url(../fonts/DaimlerCS-Light.woff2) format('woff2');
+}
+@font-face {
+  font-family: 'DaimlerCS-Regular';
+  src: url(../fonts/DaimlerCS-Regular.eot);
+  src: url(../fonts/DaimlerCS-Regular.eot?#iefix) format('embedded-opentype'),
+       url(../fonts/DaimlerCS-Regular.otf) format('otf'),
+       url(../fonts/DaimlerCS-Regular.svg#DaimlerCS-Regular) format('svg'),
+       url(../fonts/DaimlerCS-Regular.ttf) format('truetype'),
+       url(../fonts/DaimlerCS-Regular.woff) format('woff'),
+       url(../fonts/DaimlerCS-Regular.woff2) format('woff2');
+}
+
+
+p, ul li, ol li{font-family: 'Mulish', sans-serif;}
+h1, h2, h3, h4, h5, h6{font-family: 'DaimlerCAC-Regular'; line-height: 1; font-weight: 400}
+
+.header{    
+    background: #000;
+    position: relative;
+    z-index:9;
+    width: 100%;
+    top: 0;
+}
+.header .navbar-nav{align-items: center; margin-left: auto}
+.header .nav-link{color: #fff;padding: 5px 10px;transition: 0.3s ease-in}
+.header .navbar-nav .nav-link:hover, .header .navbar-nav .nav-link:focus, .header .navbar-nav .nav-link:active{color: #008DFC;transition: 0.3s ease-in} 
+ul.quick-links li a:hover, ul.quick-links li a:focus{color: #008DFC;transition: 0.3s ease-in} 
+.header .nav-item{padding: 0 20px}
+.navbar-image {padding-left: 30px}
+.text-white{color: #fff !important}
+.text-white h2{color: #fff}
+
+.vertical .carousel-item {
+  height: 90vh;
+  min-height: 350px;
+  background: no-repeat top center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*.vertical .carousel-item-next.carousel-item-left,
+.vertical .carousel-item-prev.carousel-item-right {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.vertical .carousel-item-next,
+.vertical .active.carousel-item-right {
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100% 0);
+}
+
+.vertical .carousel-item-prev,
+.vertical .active.carousel-item-left {
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}*/
+
+.carousel-indicators {
+  position: absolute;
+  top:auto;
+  bottom: 100px;
+  margin: auto;
+  height:30px;
+  right: 10px;
+  left: auto;
+  width: auto;
+  
+}
+
+.carousel-indicators > li {
+  display: block;
+  border-radius: 12px;
+  width: 12px;
+  height: 12px;
+  border: 0;
+    margin:10px;
+    position: relative;
+}
+
+.carousel-indicators li.active {
+  margin-bottom:0px;
+  background: #fff;
+}
+.carousel-indicators li.active:before{
+    position: absolute;
+    content: "";
+    border: 1px solid #fff;
+    width:22px;
+    height:22px;
+    border-radius: 100%;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel.vertical .carousel-control-prev,
+.carousel.vertical .carousel-control-next {
+  left: auto;
+  right: 13.5px;
+  width: 50px;
+}
+.carousel.vertical .carousel-control-prev.up {
+  top: 0;
+  bottom: 50%;
+}
+.carousel.vertical .carousel-control-next.down {
+  top: 50%;
+  bottom: 0;
+}
+.carousel.vertical .carousel-control-prev.up i,
+.carousel.vertical .carousel-control-next.down i {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  font-size: 2em;
+}
+.carousel.vertical .carousel-control-prev.up i {
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  margin-top: -10px;
+}
+.carousel.vertical .carousel-control-next.down i {
+  left: 50%;
+  margin-left: -10px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.carousel-caption {
+    max-width: 100%;
+    width: 40%;
+    height: fit-content;
+    text-align: left;
+    bottom: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    right: auto;
+    left: 13.5%;
+    z-index: 2;
+}
+.banner{position: relative}
+
+.primary-btn{
+    background: #0078D6;
+    color: #fff !important;
+     font-family: 'DaimlerCS-Regular';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none !important;
+    transition: 0.3s ease-in;
+}
+.primary-btn:hover{
+    background: #008DFC;
+    transition: 0.3s ease-in;
+}
+.banner-btn{margin-top: 30px; display: block}
+.testimonial4_slide{display: flex; align-items: center}
+.testimonial4_slide{
+    background-color:#0078D6;
+    padding:65px;
+    position: relative;
+    min-height: 230px;
+    display: flex;
+    align-items: center;
+    
+}
+.testimonial-quote {
+    padding-left: 30px;
+}
+.testimonial-profile {
+    max-height: 400px;
+}
+.testimonial-quote:before{
+    position: absolute;
+    content: "";
+    background: url('../images/testimonial-bg.png') no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    mix-blend-mode: lighten;
+}
+.testimonial-quote:after{
+    position: absolute;
+    content: "";
+    background: url('../images/quote.png') no-repeat;
+    width: 160px;
+    height: 100%;
+    background-size: contain;
+    top: 0;
+    right:60px;
+    mix-blend-mode: luminosity;
+}
+.testimonial-quote p{color: #fff; font-size: 16px; text-align: left; margin-bottom:30px; z-index: 2;position: relative}
+.testimonial-quote name{color: #fff; font-weight: 600; font-size: 22px; display: block; font-family: 'DaimlerCS-Demi';}
+.testimonial-quote domain{color: #fff; font-weight: 400; font-size: 18px; }
+.carousel-navigation{
+    position: relative;
+    width: fit-content;
+    float: right;
+    top: -30px;
+}
+.carousel-navigation a.carousel-control-prev {
+    background: #000;
+    width: 70px;
+    height:60px;
+    left: auto;
+    opacity: 1;
+    right: 70px;
+}
+.carousel-navigation .carousel-control-next {
+    right: 0;
+    width:70px;
+    opacity: 1;
+    height:60px;
+    background: #000;
+}
+.carousel-navigation .carousel-control-prev-icon{background-image: none; background: url('../images/long-arrow-left.png'); position: absolute; width: 32px; height: 10px; background-size: contain}
+.carousel-navigation .carousel-control-next-icon{background-image: none; background: url('../images/long-arrow-right.png'); position: absolute; width: 32px; height: 10px; background-size: contain}
+.faq{background: #000}
+
+.accordion button, .accordion button:hover, .accordion button:focus{
+  text-decoration: none;
+}
+.accordion{width: 100% }
+.accordion>.card>.card-header {
+    border-radius: 0;
+    margin-bottom: 0px;
+    border-bottom: 0;
+    background: transparent;
+    padding:0 30px 0 100px;
+}
+.accordion .card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 10px 50px 0px 112px;
+    color: #CED2D4;
+}
+.accordion .card-body p{margin-bottom: 0; font-size: 16px}
+.accordion>.card{background: transparent; border-bottom: 1px solid #CCCFD1 !important}
+.accordion>.card {padding: 20px 0}
+.accordion>.card h2{line-height: 0; font-family: 'DaimlerCS-Regular'; font-weight: 400}
+.accordion button.btn.btn-link {
+    width: 100%;
+    text-align: left;
+    outline: none !important;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'DaimlerCS-Regular';
+}
+.accordion .card-header.active button.btn.btn-link{text-decoration: underline; color: #008DFC}
+.accordion .card-header.active button i{border: 1px solid #008DFC}
+
+
+.accordion button.focus, .accordion button:focus{box-shadow: none !important}
+.accordion button i{position: absolute; left: 0; -webkit-text-stroke:3px #000;-text-stroke: 3px #000; width: 34px; height: 34px; border: 1px solid #fff; border-radius: 100%;}
+.accordion button .fa-minus:before, .accordion button .fa-plus:before {
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+.copyright{padding-top: 1.5rem}
+.copyright p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:normal;
+    letter-spacing: 0em;
+    margin-bottom: 0;
+    text-align: left;
+    color: rgba(211, 211, 211, 0.8);
+}
+.footer-media {position: relative;padding-bottom: 1.5rem}
+.footer-media:before{
+    position: absolute;
+    content: "";
+    background: #008DFC;
+    width: 100%;
+    height: 1px;
+    left: 0;
+    bottom: 0;
+}
+.contact-media h6{color: rgba(211, 211, 211, 0.8); font-weight: 300; font-size: 14px !important;margin-bottom: 0; margin-right: 20px;font-family: 'Mulish', sans-serif;}
+.contact-media{display: flex; align-items: center; }
+.contact-media ul{margin: 0; padding: 0;}
+.contact-media ul li{list-style: none; display: inline-block; padding: 0 3px;} 
+.contact-media ul li a{border: 1px solid #fff; border-radius: 100%; width: 30px; height: 30px; display: inline-block;text-align: center; transition: 0.3s ease-in}
+.contact-media ul li a:hover{border: 1px solid #008DFC; transition: 0.3s ease-in}
+ul.quick-links{padding: 0; margin: 0;}
+ul.quick-links li{list-style: none; display: inline-block; padding: 0 15px;}
+ul.quick-links li a {color: #fff; font-size: 16px; font-weight: 600;text-decoration: none !important; transition: 0.3s ease-in}
+.footer{background: #000}
+
+.carousel-caption h2{font-family: 'DaimlerCAC-Bold'; font-weight: 700}
+.carousel-caption h5{font-weight: 400; font-family: 'DaimlerCAC-Regular';}
+.carousel-caption p{font-weight: 400;font-family: 'DaimlerCAC-Regular';}
+.navbar-toggler-icon{position: relative}
+.navbar-toggler-icon:before{
+    position: absolute;
+    content: "";
+    background: url('../images/toggle.png') no-repeat;
+    width: 29px;
+    height: 23px;
+    top: 0;
+    right: 0;
+}
+
+section {position: relative}
+section .main-wrap{padding-top: 3rem!important; padding-bottom:3rem!important }
+section .heading-title{margin-bottom:1.5rem!important}
+
+.events-card{ box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);}
+.events-card-thumb{position: relative}
+.events-card-thumb img{width: 100%; max-height: 240px; min-height: 240px; object-fit: cover; object-position: bottom center}
+.events-card-thumb th-label{
+    position: absolute; 
+    background: #fff; 
+    padding: 5px 15px;
+    font-family: 'DaimlerCS-Demi';
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-align: left;
+    bottom: 20px;
+    left: 20px;
+    text-transform: uppercase;
+}
+.events-card-content{padding:20px}
+.events-card-content date{color: #505662;font-family: 'Mulish', sans-serif; font-size: 15px; font-weight: 400}
+.events-card-content h5{
+   font-family: 'DaimlerCS-Demi';
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 10px 0;
+    line-height:normal;
+}
+.events-card-content ul{margin: 0; padding: 0}
+.events-card-content ul li{list-style: none; display: inline-block}
+.events-card-content ul.register li{
+            font-family: 'DaimlerCS-Regular';
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 0em;
+            text-align: left;
+            color: #008DFC;
+            padding-right: 10px;
+}
+.events-card-content ul.register li.closed{color: #C1440D}
+.events-card-content ul.register li a{color: #008DFC; text-decoration: underline}
+.events-location{margin-top: 15px;}
+.events-location ul li{padding-right:15px}
+
+#testimonial4{padding-bottom:3rem;}
+.volunteering-impact{ background: #000; position: relative;}
+.volunteering-impact:before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    left: 0;
+    bottom: 0;
+    background: url('../images/impact-bg.png') no-repeat;
+}
+.volunteering-impact p{color:#D9D9D9}
+
+.counter-box {
+    display: block;
+    padding: 0 30px;
+    text-align: center;
+}
+
+.counter-box p {
+font-family: 'Mulish', sans-serif;
+margin-bottom: 0;    
+font-size: 18px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: #D9D9D9;
+}
+.counter-box-img {
+    height: 75px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.counter-box em {
+font-family: 'DaimlerCAC-Regular';
+font-size: 45px;
+font-weight: 400;
+letter-spacing: 0em;
+color: #fff;  
+line-height: 1;   
+font-style: normal !important;    
+}
+
+.counter {
+display: inline-block;
+font-family: 'DaimlerCAC-Regular';
+font-size: 45px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+margin: 20px 0 10px;
+color: #fff;
+    line-height: 1;
+}
+
+.counter-box.colored {
+    background: #3acf87
+}
+
+.counter-box.colored p,
+.counter-box.colored i,
+.counter-box.colored .counter {
+    color: #fff
+}
+.impact-counts{padding-top: 1.5rem}
+
+.more-button{display: block; margin: 40px auto 20px}
+.search-container {
+      display: flex;
+      max-width: 310px;
+    }
+
+    .search-input {
+      flex: 1;
+      padding:12px 10px;
+      border: 1px solid #B0B0B0;
+      border-radius:0;
+      outline: none !important;    
+    }
+.search-input::placeholder{color: #B0B0B0}
+
+.submit-icon {
+        background-color: #0078D6;
+        color: #fff;
+        border: none;
+        border-radius: 0;
+        padding: 10px 14px;
+        cursor: pointer;
+    }
+button:focus {
+    outline: none!important;
+    box-shadow: none !important;
+}
+
+.teamslide{padding-top:2rem;position: relative;padding-bottom: 1.5rem}
+.teamslide:before{
+    background:rgba(176, 176, 176, 0.25);
+    position: absolute;
+    content: "";
+    bottom:-50px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+}
+.teamslide .teamcard {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: transparent;
+    background-clip: border-box;
+    border: none;
+    border-radius: 0;
+}
+.teamslide .teamcard-title{
+font-family: 'DaimlerCS-Demi';
+font-size: 20px;
+font-weight: 600;
+letter-spacing: 0em;
+text-align: center;
+color: #131822;
+margin: 20px 0 10px;    
+}
+    
+.teamslide .teamcard-text{
+font-family: 'Mulish', sans-serif;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: #8C8D8E;
+}
+.teamcard-img-top img{max-width:175px; height: 175px; border-radius: 100%; width: 200px;margin: 0 auto}
+
+/*********Team slider****/
+.teamslide .owl-nav button {
+  position: absolute;
+  top: 50%;
+  background-color: #000;
+  color: #fff;
+  margin: 0;
+  transition: all 0.3s ease-in-out;
+}
+.teamslide .owl-nav button.owl-prev {
+  left: -50px;
+}
+.teamslide .owl-nav button.owl-next {
+  right: -50px;
+}
+
+.teamslide .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.teamslide .owl-dots button.owl-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  background:#D9D9D9;
+  margin: 0 8px;
+}
+.teamslide .owl-dots button.owl-dot.active {
+  background-color:#008DFC;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.teamslide .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.teamslide .owl-nav button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent !important;
+    margin-top: -50px;
+}
+.teamslide span {
+    font-size: 70px;    
+    position: relative;
+    top: -5px;
+    -webkit-text-stroke: 2px #fff;
+    text-stroke: 2px #fff;
+}
+.teamslide .owl-nav button:focus {
+    outline: none;
+}
+/*******Team Slider******/
+
+
+.owl-carousel.gallery .owl-dots {
+  text-align: center;
+  padding-top: 15px;
+}
+.owl-carousel.gallery .owl-dots button.owl-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  display: inline-block;
+  background:#D9D9D9;
+  margin: 0 8px;
+}
+.owl-carousel.gallery .owl-dots button.owl-dot.active {
+  background-color:#008DFC;
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+.owl-carousel.gallery .owl-dots button.owl-dot:focus {
+  outline: none;
+}
+.book-slot{position:relative;}
+.slot-info-main2 a {
+    padding-left: 30px;
+    text-decoration:underline;
+    font-family: 'DaimlerCS-Regular';
+    color: red;
+    text-decoration: none;
+}
+.slot-info-main2 p{color:red;font-family: 'DaimlerCS-Regular';}
+
+@media screen and (min-width:768px){
+.header .navbar-expand-lg{padding: 0.5rem 0}
+.slot-info-main2{display:flex;}
+.slot-info-main2 .book-slot::before {
+    content: '';
+    position: absolute;
+    top: 14%;
+    width: 2px;
+    height: 15px;
+    background: red;
+    left: 9%;
+    transform: rotate(0deg);
+}
+.events-card-content {
+    height: 200px;
+}
+ul.register {
+    height: 40px;
+}
+}
+
+@media screen and (min-width:992px){
+.header .navbar-expand-lg{padding: 0.5rem 0}
+}
+
+@media screen and (min-width:1024px){
+    h1{font-size: 50px;}
+    h2{font-size: 45px;}
+    h3{font-size: 35px}
+    .banner .carousel-indicators{right:5%}
+    .volunteering-impact p, .department p, .testimonial p, .faq p{font-size: 18px}
+    section .heading-title{position: relative; top: -15px}
+}
+
+
+@media screen and (min-width:1280px){
+        .events-card-content {
+    height: 225px;
+}
+}
+@media screen and (min-width:1366px){
+        .events-card-content {
+    height: 225px;
+}
+}
+
+@media screen and (min-width:1200px){
+    .banner .carousel-indicators{right:7%}
+    .carousel-caption h2{font-size: 64px; font-weight: 700;margin-bottom: 15px}
+    .carousel-caption h5{font-size: 38px; font-weight: 400; font-family: 'DaimlerCAC-Regular';}
+    .carousel-caption p{font-size: 38px; font-weight: 400;font-family: 'DaimlerCAC-Regular'; line-height: 1}
+    /*.carousel-caption{margin-top:80px}*/
+}
+
+@media screen and (min-width:1300px){
+.banner .carousel-indicators{right:10%}
+}
+
+@media screen and (min-width:1400px){
+.banner .carousel-indicators{right:15%}
+}
+
+@media screen and (min-width:1920px){
+.carousel-caption{left: 21%; width: 35%;margin-top: 0; }
+.banner .carousel-indicators{right:22%}    
+}
+
+@media screen and (max-width:1366px){
+    .carousel-caption{left:9%}
+}
+
+@media screen and (max-width:1300px){
+   .carousel-caption {
+    left: 6.2%;
+    width: 55%;
+    }
+    .events-card-content h5{margin: 5px 0; padding-right: 30px; font-size: 20px}
+    .events-card-content{padding: 10px 20px 20px}
+    .events-card-content date{font-size: 14px}
+    .events-card-thumb th-label{font-size: 14px}
+    .primary-btn{font-size: 17px}
+    .events-location{margin-top:10px}
+    .testimonial-quote{min-height: 200px; padding: 16px}
+    .testimonial-profile{max-height: 360px}
+    .testimonial-profile img{object-fit: cover; object-position: center center}
+    .events-card-thumb img{min-height: 220px; max-height: 220px}
+}
+
+@media screen and (max-width:1200px){
+    .carousel-caption h2{font-size: 55px; font-weight: 700}
+    .carousel-caption h5{font-size: 35px; font-weight: 400; font-family: 'DaimlerCAC-Regular';}
+    .carousel-caption p{font-size: 34px; font-weight: 400;font-family: 'DaimlerCAC-Regular'; line-height: normal}
+   .carousel-caption {  left:4%;    }
+    .primary-btn{font-size: 16px; line-height: normal}
+    .testimonial-quote{padding:40px; min-width:65%;}
+    .teamslide .owl-nav button.owl-prev{left: -20px}
+    .teamslide .owl-nav button.owl-next{right: -20px}
+    .testimonial-quote:after{width: 120px;}
+    .testimonial-profile img{width: 350px;}
+    .testimonial-quote{min-height: 330px}
+}
+
+@media screen and (max-width:992px){
+    .header .container{padding: 0}
+    .testimonial-quote { max-width: 65%; padding:30px;  min-height: auto; min-width: auto}
+    .testimonial-profile img{width: 100%;min-height: 290px}
+    .testimonial-profile{max-height: 100%}
+    .carousel-caption {width: 60%}
+    .carousel-caption h2{font-size: 46px; font-weight: 700}
+     .carousel-caption p{font-size: 28px; font-weight: 400;font-family: 'DaimlerCAC-Regular'; line-height: normal}
+    .accordion>.card>.card-header{padding: 0 30px 0 50px}
+    .accordion .card-body{padding: 20px 20px 0px 62px}
+    ul.quick-links li{padding: 0 8px}
+    .header .nav-item{padding: 10px 0}
+    .navbar-toggler:focus, .navbar-toggler:hover{outline: none !important}
+    .events-card{margin-bottom: 20px;}
+    .counter, .counter-box em{font-size: 38px;}
+    .counter-box{padding: 0; margin-bottom: 20px}
+    .teamslide .owl-nav button.owl-prev{left: -30px;}
+    .teamslide .owl-nav button.owl-next{right: -30px}
+    .carousel-indicators{right: 40px}
+    .events-card-content{padding: 10px 0 20px 20px}
+    .events-card-content h5{font-size: 18px; padding-right: 0;}
+    .events-card-content ul.register li, .slot-info-main2 p, .slot-info-main2 a{font-size: 13px; padding-right: 0}
+    .events-location ul li img{width:20px; height: 20px}
+    .more-button{margin: 10px auto 20px}
+    .events-card-thumb img {  min-height: 200px;   max-height: 200px;}
+    .teamcard-img-top img{height: 150px; max-width: 150px}
+    .search-container{max-width: 280px;}
+    .search-input{padding: 10px 10px}
+    .teamslide{padding-top: 1rem}
+    .carousel-navigation{top: -25px}
+    .carousel-navigation a.carousel-control-prev{height: 45px;}
+    .carousel-navigation .carousel-control-next{height: 45px}
+    .faq .more-button{margin: 40px auto 20px}
+    .accordion>.card{padding: 15px 0}
+    .accordion button.btn.btn-link{font-size: 18px}
+}
+
+@media screen and (max-width:767px){
+    h1{font-size: 30px;}
+    h2{font-size: 30px;}
+    h3{font-size: 24px}
+    .testimonial4_slide{display: block}
+    .header .container{padding: 0 15px}
+    .events-card-content h5{font-size: 20px}
+    section .heading-title{margin-bottom: 1rem !important}
+    section .main-wrap { padding-top: 1.5rem!important;  padding-bottom: 1.5rem!important;}
+    .primary-btn{font-size: 17px; line-height: normal;}
+     .carousel-caption h2{font-size:40px; font-weight: 700}
+    .carousel-caption h5{font-size: 24px; font-weight: 400; font-family: 'DaimlerCAC-Regular';}
+    .carousel-caption p{font-size: 22px; font-weight: 400;font-family: 'DaimlerCAC-Regular'; margin-bottom: 0; line-height: normal}
+    .header .navbar{padding: 10px 0}
+    .carousel-indicators{right: -20px;}
+    .testimonial-quote{padding: 20px;max-width: 100%}
+    .testimonial-quote p{font-size: 16px;margin-bottom: 10px}
+    .testimonial-quote name{font-size: 18px}
+    .testimonial-quote domain{font-size: 16px}
+    .carousel-navigation {
+    position: relative;
+    width: fit-content;
+    float: none;
+    top: -22px;
+    margin: 0 auto;
+}
+    .carousel-navigation a.carousel-control-prev {
+    background: #000;
+    width: 60px;
+    height: 40px;
+    left: 50%;
+    opacity: 1;
+    right: auto;
+    transform: translateX(-50%);
+    margin-left: -30px;
+}
+    .carousel-navigation .carousel-control-next {
+    right: auto;
+    width: 60px;
+    opacity: 1;
+    height: 40px;
+    background: #000;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 30px;
+}
+    .accordion button.btn.btn-link{font-size: 18px;line-height: normal}
+    .accordion>.card{padding: 15px 0}
+    .accordion>.card>.card-header{padding: 0 0 0 50px}
+    .accordion .card-body{padding: 0 0 0 62px}
+    .accordion button i{top: 25px}
+    .footer-media .text-right{text-align: left !important}
+    ul.quick-links li a{font-weight:400; font-size: 15px;}
+    ul.quick-links li{display: block;padding: 5px 0}
+    .contact-media{display: block}
+    .footer-media .col-md-4.pl-0{padding-left: 15px !important}
+    .contact-media h6{margin-bottom: 10px}
+    .copyright .col-12.pl-0.pr-0{padding-left: 15px !important; padding-right: 15px !important}
+    .copyright p{font-size: 12px}
+    .contact-media ul li{padding: 0 20px 0 0}
+    .contact-media{margin-bottom: 20px}
+    .counter, .counter-box em{font-size: 28px;}
+    .counter{margin: 10px 0 0}
+    .counter-box p{font-size: 16px}
+    .department{text-align: center}
+    .teamcard-img-top img{margin: 0 auto;height: 170px; max-width: 170px}
+    .teamslide .owl-nav button.owl-prev{left:0px;}
+    .teamslide .owl-nav button.owl-next{right:0px}
+        .search-container {
+        display: flex;
+        max-width: 300px;
+        margin:20px auto 0;
+    }
+    .testimonial .heading-title{margin-top: 1.5rem}
+    .more-button{margin: 20px auto}
+    .events-card-thumb img {
+    width: 100%;
+    max-height: 200px;
+    min-height: 200px;
+    object-fit: cover;
+        background-position: center center;
+}
+    .events-card-thumb th-label {
+    position: absolute;
+    background: #fff;
+    padding: 5px 10px;
+    font-family: 'DaimlerCS-Regular';
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-align: left;
+    bottom: 15px;
+    left: 15px;
+    line-height: 1;
+}
+    .events-card-content{padding:20px}
+    .events-card-content date{font-size: 14px}
+    .events-card-content ul.register li{font-size: 16px}
+    .testimonial{padding-top: 1.5rem}
+    .faq .more-button{margin: 40px auto 20px}
+    .search-input{padding: 8px 10px}
+    .teamslide .owl-dots{display: none !important}
+    .teamslide span{-webkit-text-stroke:0px}
+    .testimonial-quote:after{display: none}
+     .banner .carousel-indicators {
+        right: auto;
+        left: 50%;
+        bottom: 40px;
+        transform: translateX(-50%);
+    }
+    .teamslide {
+    padding-top: 2rem;
+    padding-bottom: 0;
+    }
+}
+
+@media screen and (max-width:480px){
+.banner .vertical .carousel-item {background-position: center center}
+.banner .carousel-caption{width: 65%;left: 4%; margin-top:0px}    
+
+    
+}
+
+@media screen and (max-width:360px){
+.banner .carousel-caption{width:70%;}    
+}
+
+
+
+@media screen and (min-width:1024px){
+    .vertical .carousel-item {height: 67vh;}
+}
+
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1100px) {
+    .testimonial4_slide {background-color: #0078D6;padding: 30px;}
+    .testimonial-profile img {width: 260px;}
+    .carousel-caption h2 br { dispaly:none}
+    .vertical .carousel-item {
+    height: 41vh;}
+    .events-card-content {
+    height: 185px;
+}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+.testimonial-profile img {width: 100%;min-height: 130px;}
+.testimonial4_slide {
+    background-color: #0078D6;
+    padding: 15px;
+    position: relative;
+    min-height: 144px;
+    display: flex;
+    align-items: center;
+}
+.vertical .carousel-item {
+    height: 41vh;}
+    .events-card-content {
+    height: 180px;
+}
+}
+
+
+
+@media screen and (max-width:767px){
+.vertical .carousel-item { height: 68vh;}
+.testimonial4_slide {background-color: #0078D6;padding: 10px;}
+.testimonial-profile img {
+    width: 60%;
+    min-height: 188px;
+    position: relative;
+    left: 16%;
+    text-align: center;
+}
+.slot-info-main2 {
+    display: flex;
+}
+.slot-info-main2 .book-slot::before {
+    content: '';
+    position: absolute;
+    top: 14%;
+    width: 1px;
+    height: 15px;
+    background: #008DFC;
+    left: 17%;
+    transform: rotate(0deg);
+}
+.volunteer_faqs .main-wrap {
+    padding-top: 0rem!important;
+    padding-bottom: 0rem!important;
+}
+.slot-info {
+    display: flex;
+    height: 50px;
+    position: relative;
+}
+.book-slot::before {
+    content: '';
+    position: absolute;
+    top: 35%;
+    width: 1px;
+    height: 15px;
+    background: #008DFC;
+    left: -12%;
+    transform: rotate(0deg);
+}
+.dropdown {
+     position: relative !important; 
+    top: 27px !important;
+    transform: translateY(-50%);
+    right: 0px !important;
+    z-index: 9999 !important;
+}
+}
+
+.volunteer_faqs .card button.btn.btn-link:hover, .faq-pg .card button.btn.btn-link:hover, .accordion button.btn.btn-link:hover {
+    color:#0078D6!important;
+}
+.volunteer_faqs .card button.btn.btn-link:hover i, .faq-pg .card button.btn.btn-link:hover i, .accordion button.btn.btn-link:hover i{
+   border: 1px solid #0078D6!important;
+}
+.slot-info-main2 a:hover, .register a:hover{text-decoration:none;}
+
+@media only screen and (min-width: 768px) {
+.guidelines-cta a { background: #fff; padding: 15px; display: inline-flex; text-align: center; }
+.header .container{ padding-left:0px;  padding-right:0px} .benz-image{display:flex; align-items:start;} .benz-image h4{align-items:center; color:#fff;  padding-left:40px}
+
+}
+@media only screen and (min-width: 1024px) {
+div#navbarNav ul li:last-child, .contact-media ul li:last-child { padding-right:0px}  ul.quick-links{ padding-top:10px}  .benz-image{display:flex; align-items:start;} .benz-image h4{padding-left:50px} 
+
+}
+@media only screen and (max-width: 767px) {
+	.benz-image{display:flex; align-items:start; padding-bottom:20px} .benz-image h4{align-items:center; color:#fff;  padding-left:15px} .benz-image{position:relative}  .benz-image h4{position:absolute; right:10px;} .copy-text { padding-bottom: 20px;} .contact-media h6{padding-bottom:15px} .footer .container.main-wrap { padding-top: 30px!important; } ul.quick-links{padding-bottom:15px}
+}	
+@media only screen and (min-width: 1366px) {
+	.contact-media ul{margin-left: 26px;}
+	
+}
+
+.register a:hover {
+    text-decoration: none !important;
+}
+

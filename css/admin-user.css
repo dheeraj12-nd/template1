@@ -1,0 +1,1009 @@
+.adminuser-sec1 {
+    padding: 50px 0 60px;
+}
+
+.adminuser-sec1 h1 {
+    color: #131822;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 100% */
+}
+
+.adminuser-sec1 p {
+    color: #000;
+    /* font-family: Daimler CS; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    /* 133.333% */
+    max-width: 670px;
+    margin-bottom: 0;
+}
+
+.pavethepathwrapper {
+    background: #0078D6;
+    padding: 45px 60px;
+    margin-top: 30px;
+}
+
+.pavethepathwrapper h2 {
+    color: #FFF;
+    /* font-family: Daimler CAC; */
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 100% */
+}
+
+.pavethepathwrapper p {
+    color: #FFF;
+}
+
+form.pavethepathform {
+    margin-top: 20px;
+}
+
+form.pavethepathform .form-control {
+    height: 70px;
+    border-radius: 0;
+    background: #fff;
+    padding: 10px 20px;
+    color: #131822;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:normal;
+    /* 130% */
+}
+
+form.pavethepathform select.form-control {
+    color: #6b757e;
+}
+
+form.pavethepathform textarea.form-control {
+    height: 220px;
+}
+
+form.pavethepathform button {
+    width: 288px;
+    height: 60px;
+    border-radius: 0;
+    background: #000;
+    color: #FFF;
+    text-align: center;
+    font-family: 'MULISH';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 2px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+    transition: all 0.5s ease;
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+form.pavethepathform button:hover {
+    background: #fff;
+    color: #000;
+}
+
+.namefieldwrap small,
+.focusareawrap small {
+    color: #6D6F73;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.62;
+    /* 162.5% */
+    margin: 0;
+    position: absolute;
+    right: 40px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 25px;
+}
+
+.namefieldwrap small {
+    right: 50px;
+}
+
+form.pavethepathform .namefieldwrap .form-control,
+form.pavethepathform .namefieldwrap .form-control {
+    padding-right: 150px;
+}
+
+.focusareawrap small {
+    margin-top: 20px;
+}
+
+form.pavethepathform .form-row {
+    margin-bottom: 16px;
+}
+
+form.pavethepathform .form-row:last-child {
+    margin-bottom: 0;
+}
+
+.forgeconnectionsec {
+    background: #F1F0F0;
+    padding: 50px 0;
+}
+
+.forgeconnectionsec h2 {
+    color: #131822;
+    /* font-family: Daimler CAC; */
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 100% */
+}
+
+.forgeconnectionsec p {
+    color: #000;
+    /* font-family: Daimler CS; */
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    /* 133.333% */
+    max-width: 600px;
+    margin-bottom: 0;
+}
+
+form.forgeconnectionform {
+    margin-top: 40px;
+}
+
+form.forgeconnectionform .form-control {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    border-radius: 0;
+    background: transparent;
+    height: 70px;
+    padding:10px 20px;
+    color: #131822;
+    font-family: Mulish;
+    font-size:16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:normal;
+    /* 130% */
+    box-shadow: none;
+}
+
+form.forgeconnectionform .form-row {
+    margin-bottom: 20px;
+}
+
+form.forgeconnectionform .form-row:last-child {
+    margin-bottom: 0;
+}
+
+form.forgeconnectionform .btnswrap .btn {
+    width: 288px;
+    height: 60px;
+    margin-left: 25px;
+    border-radius: 0;
+    border: 0;
+    color: #131822;
+    text-align: center;
+    font-family: 'MULISH';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    /* 150% */
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+
+form.forgeconnectionform .btnswrap .draftsavebtn {
+    background: #CBCBCB;
+    border: 1px solid #CBCBCB;
+}
+
+form.forgeconnectionform .btnswrap .btn:first-child {
+    margin-left: 0;
+}
+
+form.forgeconnectionform .btnswrap .submitbtn {
+    background: #0078D6;
+    color: #fff;
+    border: 1px solid #0078D6;
+}
+
+form.forgeconnectionform .btnswrap .draftsavebtn:hover {
+    background: #000;
+    color: #CBCBCB;
+}
+
+form.forgeconnectionform .btnswrap .submitbtn:hover {
+    background: #fff;
+    color: #0078D6;
+}
+
+form.forgeconnectionform textarea#editor+.tox-tinymce {
+    border: 0;
+    border-radius: 0;
+}
+
+form.forgeconnectionform textarea#editor+.tox-tinymce .tox-editor-header {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    background: #FFF;
+    box-shadow: none;
+}
+
+form.forgeconnectionform textarea#editor+.tox-tinymce .tox-sidebar-wrap {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+    border-top: 0;
+}
+
+form.forgeconnectionform textarea#editor+.tox-tinymce .tox-sidebar-wrap iframe {
+    background: transparent;
+}
+
+section.mailslistsec {
+    padding: 70px 0;
+}
+
+.mailslisttabs ul.nav-tabs {
+    border: 0;
+    justify-content: center;
+}
+
+.mailslisttabs ul.nav-tabs .nav-item {
+    margin: 0;
+}
+
+.mailslisttabs ul.nav-tabs .nav-item .nav-link {
+    height: 60px;
+    background: #8C8D8E;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    min-width: 200px;
+    border: 0;
+    margin: 0 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    /* 100% */
+    position: relative;
+}
+
+.mailslisttabs ul.nav-tabs .nav-item .nav-link.active {
+    background: #000;
+}
+
+.mailslisttabs ul.nav-tabs .nav-item .nav-link.active::after {
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 90%;
+    /* background: #000; */
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 24px solid #000;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    border-bottom: 0px solid transparent;
+}
+
+.mailslisttabs .tab-content {
+    margin-top: 70px;
+}
+
+.mailslistwrap .maillist {
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.mailslistwrap .maillist h4 {
+    color: #000;
+    font-family: 'Mulish';
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1;
+    /* 100% */
+    margin-bottom: 10px;
+}
+
+.mailslistwrap .maillist p {
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.3;
+    margin-bottom: 0;
+}
+
+.mailslistwrap .maillist span {
+    color: #6D6F73;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.625;
+    /* 162.5% */
+    display: inline-block;
+    margin-top:5px;
+}
+
+.mailslistwrap ul.pagination {
+    justify-content: center;
+    margin: 0;
+}
+
+.mailslistwrap ul.pagination .page-link {
+    color: #848EA1;
+    font-family: 'DaimlerCAC-Regular';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.43;
+    border: 0;
+    margin: 0 10px;
+    padding: 0;
+    background: transparent;
+    box-shadow: none;
+}
+
+.mailslistwrap ul.pagination li.active .page-link {
+    background: transparent;
+    color: #008DFC;
+    text-decoration: underline;
+}
+
+.mailslistwrap ul.pagination .page-link:hover {
+    color: #008DFC;
+}
+
+.exploresection {
+    padding: 60px 0;
+    background: #F1F0F0;
+}
+
+.exploresection h2 {
+    color: #131822;
+    /* font-family: Daimler CAC; */
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 100% */
+}
+
+.exploresection p {
+    margin-bottom: 0;
+    color: #000;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.33;
+    /* 133.333% */
+    max-width: 800px;
+}
+
+.exploresecslider {
+    padding-top: 20px;
+}
+
+.exploreslideitem .slideinfo {
+    background: #FFF;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+    padding: 25px;
+}
+
+.exploreslideitem .slideinfo .location {
+    display: flex;
+    align-items: center;
+    color: #131822;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46px;
+    /* 255.556% */
+}
+
+.exploreslideitem .slideinfo .location img {
+    width: auto;
+    margin-right: 10px;
+}
+
+.exploreslideitem .slideimage {
+    width: 390px;
+    height: 240px;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+.exploreslideitem .slideimage a {
+    display: block;
+    height: 100%;
+}
+
+.exploreslideitem .slideimage img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.exploreslideitem .slideinfo span.date {
+    color: #505662;
+    font-family: 'Mulish';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.4;
+    /* 287.5% */
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.exploreslideitem .slideinfo a {
+    display: inline-block;
+    color: #131822;
+    font-family: 'DaimlerCS-Demi';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25;
+    /* 125% */
+}
+.exploreslideitem .slideinfo a  h4{
+    font-family: 'DaimlerCS-Demi';
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.exploreslideitem .slideinfo .vieweditbts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.exploreslideitem .slideinfo .vieweditbts a.viewbtn {
+    background: #CBCBCB;
+}
+
+.exploreslideitem .slideinfo .vieweditbts a.editbtn {
+    background: #0078D6;
+    color: #fff;
+    border: 1px solid #0078D6;
+}
+
+.exploreslideitem .slideinfo .vieweditbts a {
+    width: 140px;
+    height:45px;
+    margin: 0 5px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    text-align: center;
+    font-family: 'MULISH';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height:normal;
+    /* 150% */
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+
+.exploreslideitem .slideinfo .vieweditbts a.viewbtn:hover {
+    color: #CBCBCB;
+    background: #000;
+}
+
+.exploreslideitem .slideinfo .vieweditbts a.editbtn:hover {
+    background: transparent;
+    color: #0078D6;
+}
+
+.exploreslideitem .downloaddiv a:hover {
+    background: rgb(255 255 255 / 70%);
+}
+
+.exploreslideitem .downloaddiv {
+    /* margin-top: 20px; */
+    text-align: center;
+}
+
+.exploreslideitem .downloaddiv a {
+    color: #0078D6;
+    text-align: center;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.66;
+    /* 166.667% */
+    letter-spacing: 1.8px;
+    text-decoration-line: underline;
+    display: block;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #EEE3E3;
+    transition: all 0.5s ease;
+}
+
+.exploresecslider.owl-carousel .owl-nav {
+    position: absolute;
+    top: 40%;
+    width: 100%;
+}
+
+.exploresecslider.owl-carousel .owl-nav button {
+    color: #333333;
+    font-size: 60px;
+    position: absolute;
+    background: transparent !important;
+}
+
+.exploresecslider.owl-carousel .owl-nav button.owl-prev {
+    left: -50px;
+    color: #333333;
+    font-size: 60px;
+}
+
+.exploresecslider.owl-carousel .owl-nav button.owl-next {
+    right: -50px;
+    color: #333333;
+    font-size: 60px;
+}
+
+.exploresecslider.owl-carousel .owl-nav button:hover {
+    color: #0070de;
+}
+
+.cumulativedashboardsec {
+    padding: 50px 0;
+}
+
+.cumulativedashboardsec h2 {
+    margin: 0;
+    color: #131822;
+    text-align: center;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    /* 100% */
+}
+
+.cumulativedashboardsec .selectlistwrap {
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cumulativedashboardsec .selectlistwrap select {
+    width: 205px;
+    height: 60px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    background: #000;
+    color: #FFF;
+    font-family: 'Mulish';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* 150% */
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid #000;
+    transition: all 0.5s ease;
+    appearance: none;
+    background-image: url(../images/dropdown-grayarrow.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.cumulativedashboardsec .selectlistwrap select:hover,
+.cumulativedashboardsec .selectlistwrap select:focus {
+    background-image: url(../images/dropdown-blackarrow.png);
+    background-repeat: no-repeat;
+    background-position: 90%;
+}
+
+.cumulativedashboardsec .selectlistwrap select:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+.cumulativedashboardsec .dashboardresultwrap img.img-fluid {
+    display: block;
+    margin: 0 auto;
+}
+
+@media all and (max-width: 1199px) {
+    .exploreslideitem .slideimage {
+        height: 200px;
+    }
+
+    .exploreslideitem .slideinfo {
+        padding: 20px;
+    }
+
+    .cumulativedashboardsec .selectlistwrap select {
+        width: 170px;
+        height: 50px;
+    }
+
+    .exploreslideitem .slideinfo .location {
+        line-height: 1.4;
+    }
+}
+
+@media all and (max-width: 991px) {
+    .adminuser-sec1 {
+        padding: 30px 0;
+    }
+
+    .adminuser-sec1 h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .pavethepathwrapper {
+        margin-top: 40px;
+    }
+
+    .pavethepathwrapper {
+        padding: 40px 50px;
+    }
+
+    .pavethepathwrapper h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    form.pavethepathform .form-control {
+        padding: 20px;
+        height: 70px;
+        font-size: 16px;
+    }
+
+    .namefieldwrap small,
+    .focusareawrap small {
+        right: 20px;
+    }
+
+    .namefieldwrap small{
+        right: 30px;
+    }
+
+    form.pavethepathform .namefieldwrap .form-control,
+    form.pavethepathform .namefieldwrap .form-control {
+        padding-right: 120px;
+    }
+
+    form.pavethepathform textarea.form-control {
+        height: 200px;
+    }
+
+    form.pavethepathform button {
+        height: 50px;
+        font-size: 18px;
+    }
+
+    .forgeconnectionsec {
+        padding: 40px 0;
+    }
+
+    .forgeconnectionsec h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    form.forgeconnectionform {
+        margin-top: 20px;
+    }
+
+    form.forgeconnectionform .form-control {
+        height: 70px;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    form.forgeconnectionform .btnswrap .btn {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+    }
+
+    section.mailslistsec {
+        padding: 40px 0;
+    }
+
+    .mailslisttabs ul.nav-tabs .nav-item .nav-link {
+        min-width: 180px;
+        height: 50px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .mailslisttabs .tab-content {
+        margin-top: 50px;
+    }
+
+    .mailslistwrap .maillist h4 {
+        font-size: 22px;
+    }
+
+    .mailslistwrap .maillist {
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+
+    .mailslistwrap ul.pagination .page-link {
+        font-size: 28px;
+    }
+
+    .exploresection {
+        padding: 30px 0;
+    }
+
+    .exploresection h2 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+
+    .exploresecslider {
+        padding-top: 20px;
+    }
+
+    .exploresecslider.owl-carousel .owl-nav button.owl-next {
+        right: -40px;
+        font-size: 50px;
+    }
+
+    .exploresecslider.owl-carousel .owl-nav button.owl-prev {
+        left: -40px;
+        font-size: 50px;
+    }
+
+    .exploreslideitem .slideinfo .vieweditbts a {
+        height: 50px;
+    }
+
+    .exploreslideitem .downloaddiv a {
+        padding: 15px;
+    }
+
+    .cumulativedashboardsec {
+        padding: 30px 0;
+    }
+
+    .cumulativedashboardsec h2 {
+        font-size: 36px;
+    }
+
+    .cumulativedashboardsec .selectlistwrap {
+        margin: 30px 0;
+    }
+
+    .cumulativedashboardsec .selectlistwrap {
+        justify-content: center;
+    }
+
+    .cumulativedashboardsec .selectlistwrap select {
+        margin: 0 10px 10px;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .pavethepathwrapper {
+        margin-top: 20px;
+        padding: 20px 30px;
+    }
+
+    form.forgeconnectionform .btnswrap .btn {
+        margin-left: 15px;
+        width: 200px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    form.forgeconnectionform .form-row .text-right.btnswrap {
+        text-align: center !important;
+    }
+}
+
+@media all and (max-width: 599px) {
+    .exploreslideitem .slideitemwrap {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+    .exploresecslider.owl-carousel .owl-nav button.owl-prev {
+        left: 0;
+    }
+
+    .exploresecslider.owl-carousel .owl-nav button.owl-next {
+        right: 0;
+    }
+
+    .exploresecslider {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .exploresecslider.owl-carousel .owl-nav {
+        left: 0;
+    }
+
+    .exploreslideitem .slideimage {
+        height: 180px;
+    }
+}
+
+@media all and (max-width: 575px) {
+
+    .adminuser-sec1,
+    .forgeconnectionsec,
+    .exploresection,
+    .cumulativedashboardsec {
+        padding: 20px 0;
+    }
+
+    .pavethepathwrapper {
+        padding: 10px;
+    }
+
+    form.pavethepathform {
+        margin-top: 20px;
+    }
+
+    .adminuser-sec1 h1,
+    .pavethepathwrapper h2,
+    .forgeconnectionsec h2,
+    .exploresection h2,
+    .cumulativedashboardsec h2 {
+        font-size: 30px;
+    }
+
+    .namefieldwrap,
+    .focusareawrap {
+        padding-top: 25px;
+        position: relative;
+    }
+
+    .namefieldwrap small,
+    .focusareawrap small {
+        right: 10px;
+        bottom: auto;
+        top: 0;
+        color: rgba(255, 255, 255, 0.8);
+        margin: 0;
+    }
+
+    form.pavethepathform .namefieldwrap .form-control,
+    form.pavethepathform .namefieldwrap .form-control {
+        padding-right: 20px;
+    }
+
+    form.pavethepathform .form-control {
+        padding: 10px;
+        height: 50px;
+    }
+
+    form.pavethepathform .form-row:nth-of-type(3) {
+        margin-bottom: 0;
+    }
+
+    form.pavethepathform .form-row:nth-of-type(3) .col {
+        width: 100%;
+        flex-basis: auto;
+        margin-bottom: 16px;
+    }
+
+    form.forgeconnectionform .btnswrap .btn {
+        letter-spacing: 0;
+        width: 130px;
+    }
+
+    .mailslisttabs ul.nav-tabs .nav-item .nav-link {
+        margin: 0 10px;
+        min-width: 120px;
+        height: 45px;
+        font-size: 24px;
+    }
+
+    .mailslisttabs ul.nav-tabs .nav-item .nav-link.active::after {
+        border: 16px solid #000;
+        border-left: 12px solid transparent;
+        border-right: 12px solid transparent;
+        border-bottom: 0px solid transparent;
+    }
+
+    .mailslisttabs .tab-content {
+        margin-top: 30px;
+    }
+
+    .mailslistwrap ul.pagination .page-link {
+        font-size: 24px;
+        margin: 0 8px;
+    }
+
+    /* .exploreslideitem .slideitemwrap {
+        max-width: 265px;
+    } */
+
+    .exploreslideitem .slideinfo {
+        padding: 10px;
+    }
+
+    /* .exploresecslider.owl-carousel .owl-nav button.owl-prev {
+        left: -20px;
+    }
+
+    .exploresecslider.owl-carousel .owl-nav button.owl-next {
+        right: -20px;
+    } */
+
+    .cumulativedashboardsec .selectlistwrap select {
+        letter-spacing: 0;
+        margin: 0 5px 10px;
+        width: 135px;
+        width: 100%;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    .exploreslideitem .slideinfo .vieweditbts a {
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .exploreslideitem .downloaddiv a {
+        font-size: 16px;
+        letter-spacing: 1px;
+    }
+
+    .mailslistwrap .maillist h4 {
+        font-size: 20px;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    .mailslistwrap .maillist span {
+        margin-top: 10px;
+    }
+
+    form.forgeconnectionform textarea#editor+.tox-tinymce {
+        height: 220px !important;
+    }
+}
